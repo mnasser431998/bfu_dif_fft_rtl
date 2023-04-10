@@ -1,0 +1,294 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/mnasser431998/Desktop/fft_pipeline
+T_opt
+!s110 1681002370
+VHljeE1^b>=]76?1AdzD892
+04 11 4 work bfu_dif_top fast 0
+=1-000ae431a4f1-64320f80-8340e-16dfd
+o-quiet +acc -auto_acc_if_foreign -work sim_build/work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vbfu_dif_top
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1681002367
+!i10b 1
+!s100 AzNNDGiC^;VCRX6E;fZCg2
+IKN7J3<eW34[<?FHU4F?VZ1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 bfu_dif_top_v_unit
+S1
+R0
+w1680996678
+8/home/mnasser431998/Desktop/fft_pipeline/src/bfu_dif_top.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/bfu_dif_top.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1681002366.000000
+Z8 !s107 /home/mnasser431998/Desktop/fft_pipeline/src/tw_calc.v|/home/mnasser431998/Desktop/fft_pipeline/src/rom_async.v|/home/mnasser431998/Desktop/fft_pipeline/src/sin_lut.v|/home/mnasser431998/Desktop/fft_pipeline/src/sine_lut_wr.v|/home/mnasser431998/Desktop/fft_pipeline/src/delay_buffer.v|/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut.v|/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut_wr.v|/home/mnasser431998/Desktop/fft_pipeline/src/cmx_mult.v|/home/mnasser431998/Desktop/fft_pipeline/src/cmx_add.v|/home/mnasser431998/Desktop/fft_pipeline/src/bfu_internal.v|/home/mnasser431998/Desktop/fft_pipeline/src/bfu_dif_top.v|
+Z9 !s90 -work|work|+define+COCOTB_SIM|-sv|-timescale|1ns/1ps|-mfcu|+acc|/home/mnasser431998/Desktop/fft_pipeline/src/bfu_dif_top.v|/home/mnasser431998/Desktop/fft_pipeline/src/bfu_internal.v|/home/mnasser431998/Desktop/fft_pipeline/src/cmx_add.v|/home/mnasser431998/Desktop/fft_pipeline/src/cmx_mult.v|/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut_wr.v|/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut.v|/home/mnasser431998/Desktop/fft_pipeline/src/delay_buffer.v|/home/mnasser431998/Desktop/fft_pipeline/src/sine_lut_wr.v|/home/mnasser431998/Desktop/fft_pipeline/src/sin_lut.v|/home/mnasser431998/Desktop/fft_pipeline/src/rom_async.v|/home/mnasser431998/Desktop/fft_pipeline/src/tw_calc.v|
+!i113 0
+Z10 o-work work -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work work +define+COCOTB_SIM -sv -timescale 1ns/1ps -mfcu +acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbfu_internal
+R2
+R3
+!i10b 1
+!s100 P[IDg_daXdU9<56ljT_kA2
+IN0CbYXGW8SiD1Z4hMBAI02
+R4
+R5
+S1
+R0
+w1680901859
+8/home/mnasser431998/Desktop/fft_pipeline/src/bfu_internal.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/bfu_internal.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcmx_add
+R2
+R3
+!i10b 1
+!s100 ^gdPO<33]KkR`k]`7Dc6C2
+IU42_Rcze4YjHS1MUKDLR@1
+R4
+R5
+S1
+R0
+w1680994012
+8/home/mnasser431998/Desktop/fft_pipeline/src/cmx_add.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/cmx_add.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcmx_mult
+R2
+R3
+!i10b 1
+!s100 HV48i8@PTeh8z8;M94f==1
+IZG[RV3lHLGia2?WF0L3i61
+R4
+R5
+S1
+R0
+w1680916617
+8/home/mnasser431998/Desktop/fft_pipeline/src/cmx_mult.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/cmx_mult.v
+L0 7
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcos_lut
+R2
+R3
+!i10b 1
+!s100 `0:AgCSidKW3>ZLC91HQa2
+IeBjf5=:6NlNA5b6bc0][91
+R4
+R5
+S1
+R0
+w1680994791
+8/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcos_lut_wr
+R2
+R3
+!i10b 1
+!s100 <AU0M1c^G?W=6^hDPoz1@1
+IPzVWE2>dkEgNRQO0CTfbf2
+R4
+R5
+S1
+R0
+w1680994884
+8/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut_wr.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/cos_lut_wr.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vdelay_buffer
+R2
+R3
+!i10b 1
+!s100 FWJ3[2Z9zAk4Zm0K`L@ce0
+IhTH?l<Ad60K<8cG<YAZ^H2
+R4
+R5
+S1
+R0
+w1680925487
+8/home/mnasser431998/Desktop/fft_pipeline/src/delay_buffer.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/delay_buffer.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vrom_async
+R2
+R3
+!i10b 1
+!s100 hMPb7BT;iQ40k]BI@S=CU0
+IRNo6azgliDzZY`?A>f^UQ2
+R4
+R5
+S1
+R0
+w1680994684
+8/home/mnasser431998/Desktop/fft_pipeline/src/rom_async.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/rom_async.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vsin_lut
+R2
+R3
+!i10b 1
+!s100 A@`5;SRRJijCib6IClz@O1
+I27KSgaOi`=`R7?`J`hJOT3
+R4
+R5
+S1
+R0
+w1680994785
+8/home/mnasser431998/Desktop/fft_pipeline/src/sin_lut.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/sin_lut.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vsine_lut_wr
+R2
+R3
+!i10b 1
+!s100 :R2hRi@lS[l;=XNQ`4I?P2
+Iej=]1:n<g85mmc3E38l6T1
+R4
+R5
+S1
+R0
+w1680994872
+8/home/mnasser431998/Desktop/fft_pipeline/src/sine_lut_wr.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/sine_lut_wr.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vtw_calc
+R2
+R3
+!i10b 1
+!s100 B2f@DG=zW0F=34nRJDAUZ0
+I]k1g:;U0TA8Kd0T>d9Y8]0
+R4
+R5
+S1
+R0
+w1677443809
+8/home/mnasser431998/Desktop/fft_pipeline/src/tw_calc.v
+F/home/mnasser431998/Desktop/fft_pipeline/src/tw_calc.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1

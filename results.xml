@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1681161547" />
+    <testcase classname="test" file="/home/mnasser431998/Desktop/fft_pipeline/test/test.py" lineno="152" name="test_bfu_fft" ratio_time="4653.932923604245" sim_time_ns="101.001" time="0.021702289581298828" />
+  </testsuite>
+</testsuites>

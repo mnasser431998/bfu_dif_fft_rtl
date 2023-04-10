@@ -1,0 +1,43 @@
+# do sim_build/runsim.do
+# QuestaSim-64 vmap 10.7c Lib Mapping Utility 2018.08 Aug 17 2018
+# vmap -c 
+# Copying /home/mnasser431998/Questa/questasim/linux_x86_64/../modelsim.ini to modelsim.ini
+# QuestaSim-64 vmap 10.7c Lib Mapping Utility 2018.08 Aug 17 2018
+# vmap work sim_build/work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 03:06:06 on Apr 09,2023
+# vlog -work work "+define+COCOTB_SIM" -sv -timescale 1ns/1ps -mfcu "+acc" /home/mnasser431998/Desktop/fft_pipeline/src/bfu_dif_top.v /home/mnasser431998/Desktop/fft_pipeline/src/bfu_internal.v /home/mnasser431998/Desktop/fft_pipeline/src/cmx_add.v /home/mnasser431998/Desktop/fft_pipeline/src/cmx_mult.v /home/mnasser431998/Desktop/fft_pipeline/src/cos_lut_wr.v /home/mnasser431998/Desktop/fft_pipeline/src/cos_lut.v /home/mnasser431998/Desktop/fft_pipeline/src/delay_buffer.v /home/mnasser431998/Desktop/fft_pipeline/src/sine_lut_wr.v /home/mnasser431998/Desktop/fft_pipeline/src/sin_lut.v /home/mnasser431998/Desktop/fft_pipeline/src/rom_async.v /home/mnasser431998/Desktop/fft_pipeline/src/tw_calc.v 
+# -- Compiling module bfu_dif_top
+# -- Compiling module bfu_internal
+# -- Compiling module cmx_add
+# -- Compiling module cmx_mult
+# -- Compiling module cos_lut_wr
+# -- Compiling module cos_lut
+# -- Compiling module delay_buffer
+# -- Compiling module sine_lut_wr
+# -- Compiling module sin_lut
+# -- Compiling module rom_async
+# -- Compiling module tw_calc
+# 
+# Top level modules:
+# 	bfu_dif_top
+# End time: 03:06:07 on Apr 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -onfinish exit -pli "/home/mnasser431998/.local/lib/python3.6/site-packages/cocotb/libs/libcocotbvpi_modelsim.so" sim_build/work.bfu_dif_top 
+# Start time: 03:06:07 on Apr 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# 
+# ** License Issue: License server does not support this feature (qhsimvl)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** License Issue: Invalid (inconsistent) license key. (/home/mnasser431998/Questa/questasim/linux_x86_64/my_license.dat)
+# ** Error: Failure to obtain a Verilog simulation license. Unable to checkout any of these license features: 'qhsimvl' or 'msimhdlsim'.
+# Error loading design
+# End time: 03:07:31 on Apr 09,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0

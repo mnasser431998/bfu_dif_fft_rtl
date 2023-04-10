@@ -1,0 +1,343 @@
+$date
+	Mon Apr 10 23:19:08 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module bfu_dif_top $end
+$var wire 32 ! a [31:0] $end
+$var wire 32 " b [31:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset_n $end
+$var wire 2 % tw_addr [1:0] $end
+$var wire 16 & tw_real_wire [15:0] $end
+$var wire 16 ' tw_img_wire [15:0] $end
+$var wire 33 ( scaled_mult_real [32:0] $end
+$var wire 33 ) scaled_mult_img [32:0] $end
+$var wire 33 * mult_result_real [32:0] $end
+$var wire 33 + mult_result_img [32:0] $end
+$var wire 32 , c_plus_wire [31:0] $end
+$var wire 32 - c_plus [31:0] $end
+$var wire 32 . c_minus_wire [31:0] $end
+$var wire 16 / c_minus_real [15:0] $end
+$var wire 16 0 c_minus_img [15:0] $end
+$var wire 32 1 c_minus [31:0] $end
+$scope module delay_buffer_plus_path $end
+$var wire 32 2 buf_out [31:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset_n $end
+$var wire 32 3 buf_in [31:0] $end
+$var integer 32 4 i [31:0] $end
+$upscope $end
+$scope module internal_bfu_add_sub $end
+$var wire 32 5 a [31:0] $end
+$var wire 32 6 b [31:0] $end
+$var wire 32 7 c_plus [31:0] $end
+$var wire 32 8 c_minus [31:0] $end
+$scope module u0_cmx_add_plus $end
+$var wire 32 9 a [31:0] $end
+$var wire 32 : b [31:0] $end
+$var wire 16 ; c_img [15:0] $end
+$var wire 16 < c_real [15:0] $end
+$var wire 1 = sub_flag $end
+$var wire 32 > c [31:0] $end
+$var wire 16 ? b_real [15:0] $end
+$var wire 16 @ b_img [15:0] $end
+$var wire 16 A a_real [15:0] $end
+$var wire 16 B a_img [15:0] $end
+$upscope $end
+$scope module u1_cmx_add_minus $end
+$var wire 32 C a [31:0] $end
+$var wire 32 D b [31:0] $end
+$var wire 16 E c_img [15:0] $end
+$var wire 16 F c_real [15:0] $end
+$var wire 1 G sub_flag $end
+$var wire 32 H c [31:0] $end
+$var wire 16 I b_real [15:0] $end
+$var wire 16 J b_img [15:0] $end
+$var wire 16 K a_real [15:0] $end
+$var wire 16 L a_img [15:0] $end
+$upscope $end
+$upscope $end
+$scope module my_multiplier $end
+$var wire 16 M ai [15:0] $end
+$var wire 16 N ar [15:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset_n $end
+$var wire 33 O pr [32:0] $end
+$var wire 33 P pi [32:0] $end
+$var wire 16 Q br [15:0] $end
+$var wire 16 R bi [15:0] $end
+$var reg 17 S addcommon [16:0] $end
+$var reg 17 T addi [16:0] $end
+$var reg 17 U addr [16:0] $end
+$var reg 16 V ai_d [15:0] $end
+$var reg 16 W ai_dd [15:0] $end
+$var reg 16 X ai_ddd [15:0] $end
+$var reg 16 Y ai_dddd [15:0] $end
+$var reg 16 Z ar_d [15:0] $end
+$var reg 16 [ ar_dd [15:0] $end
+$var reg 16 \ ar_ddd [15:0] $end
+$var reg 16 ] ar_dddd [15:0] $end
+$var reg 16 ^ bi_d [15:0] $end
+$var reg 16 _ bi_dd [15:0] $end
+$var reg 16 ` bi_ddd [15:0] $end
+$var reg 16 a br_d [15:0] $end
+$var reg 16 b br_dd [15:0] $end
+$var reg 16 c br_ddd [15:0] $end
+$var reg 33 d common [32:0] $end
+$var reg 33 e commonr1 [32:0] $end
+$var reg 33 f commonr2 [32:0] $end
+$var reg 33 g mult0 [32:0] $end
+$var reg 33 h multi [32:0] $end
+$var reg 33 i multr [32:0] $end
+$var reg 33 j pi_int [32:0] $end
+$var reg 33 k pr_int [32:0] $end
+$upscope $end
+$scope module twiddle_factor_generator $end
+$var wire 2 l addr [1:0] $end
+$var wire 16 m tw_real [15:0] $end
+$var wire 16 n tw_img [15:0] $end
+$scope module tw_rom $end
+$var wire 2 o addr [1:0] $end
+$var reg 32 p data [31:0] $end
+$scope begin sv2v_autoblock_1 $end
+$var reg 32 q i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module bfu_dif_top $end
+$scope module my_multiplier $end
+$upscope $end
+$upscope $end
+$scope module bfu_dif_top $end
+$scope module delay_buffer_plus_path $end
+$upscope $end
+$scope module internal_bfu_add_sub $end
+$scope module u0_cmx_add_plus $end
+$upscope $end
+$scope module u1_cmx_add_minus $end
+$upscope $end
+$upscope $end
+$scope module my_multiplier $end
+$upscope $end
+$scope module twiddle_factor_generator $end
+$scope module tw_rom $end
+$scope begin sv2v_autoblock_1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 q
+bx p
+bz o
+bx n
+bx m
+bz l
+b0 k
+b0 j
+b0 i
+b0 h
+b0 g
+b0 f
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b0 W
+b0 V
+b0 U
+b0 T
+b0 S
+bx R
+bx Q
+b0 P
+b0 O
+bx N
+bx M
+bz L
+bz K
+bz J
+bz I
+bx H
+1G
+bx F
+bx E
+bz D
+bz C
+bz B
+bz A
+bz @
+bz ?
+bx >
+0=
+bx <
+bx ;
+bz :
+bz 9
+bx 8
+bx 7
+bz 6
+bz 5
+b110 4
+bx 3
+b0 2
+b0 1
+bx 0
+bx /
+bx .
+b0 -
+bx ,
+b0 +
+b0 *
+b0 )
+b0 (
+bx '
+bx &
+bz %
+0$
+1#
+bz "
+bz !
+$end
+#5000
+0#
+#10000
+b110 4
+1#
+#15000
+0#
+#20000
+b110 4
+1#
+#25000
+0#
+#30000
+b110 4
+1#
+#35000
+0#
+#40000
+b0 &
+b0 Q
+b0 m
+b1111111100000000 '
+b1111111100000000 R
+b1111111100000000 n
+b1111011001101101 /
+b1111011001101101 N
+b100101001001110 0
+b100101001001110 M
+b11111111000000000000000000000000 p
+b1010101011101 <
+b111101111000 ?
+b10110000010011100001010101011101 ,
+b10110000010011100001010101011101 3
+b10110000010011100001010101011101 7
+b10110000010011100001010101011101 >
+b1011000001001110 ;
+b1011001100000000 @
+b1111011001101101 F
+b111101111000 I
+b1001010010011101111011001101101 .
+b1001010010011101111011001101101 8
+b1001010010011101111011001101101 H
+b100101001001110 E
+b1011001100000000 J
+b10111100101 A
+b1111110101001110 B
+b10111100101 K
+b1111110101001110 L
+b10 %
+b10 l
+b10 o
+b10110011000000000000111101111000 "
+b10110011000000000000111101111000 6
+b10110011000000000000111101111000 :
+b10110011000000000000111101111000 D
+b11111101010011100000010111100101 !
+b11111101010011100000010111100101 5
+b11111101010011100000010111100101 9
+b11111101010011100000010111100101 C
+1$
+b110 4
+1#
+#45000
+0#
+#50000
+b1111111100000000 ^
+b100101001001110 V
+b1111011001101101 Z
+b101 4
+1#
+#55000
+0#
+#60000
+b1111111100000000 _
+b100101001001110 W
+b1111011001101101 [
+b11010110000011111 S
+b101 4
+1#
+#65000
+0#
+#70000
+b100101001001110 X
+b1111011001101101 \
+b10100111110000100000000 g
+b1111111100000000 `
+b101 4
+1#
+#75000
+0#
+#80000
+b10100111110000100000000 d
+b100000000 U
+b1111011001101101 ]
+b11111111100000000 T
+b100101001001110 Y
+b101 4
+1#
+#85000
+0#
+#90000
+b10100111110000100000000 f
+b111111111101101011011001000000000 h
+b10100111110000100000000 e
+b111111111111101100110110100000000 i
+b101 4
+1#
+#95000
+0#
+#100000
+b1001100100110100101001001110 1
+b100101001001110 (
+b100110010011 )
+b10110000010011100001010101011101 -
+b10110000010011100001010101011101 2
+b10010100100111000000000 *
+b10010100100111000000000 O
+b10010100100111000000000 k
+b10011001001100000000 +
+b10011001001100000000 P
+b10011001001100000000 j
+b101 4
+1#
+#101001
