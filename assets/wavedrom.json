@@ -1,0 +1,9 @@
+{signal: [
+  {name: 'clk', 	wave: 'p.........'},
+  {name: 'reset_n', wave: '0.1.......'},
+  {name: 'a', 		wave: 'x.32465789', data: ['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7']},
+  {name: 'b', 		wave: 'x.32465789', data: ['b0', 'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7']},
+  {name: 'tw_addr', wave: 'x.32465789', data: ['adr0', 'adr1', 'adr2', 'adr3', 'adr4', 'adr5', 'adr6', 'adr7']},
+  {name: 'c_plus', 	wave: 'x.......46', data: ['cp0', 'cp1']},
+  {name: 'c_minus', wave: 'x.......46', data: ['cm0', 'cm1']}
+]}
